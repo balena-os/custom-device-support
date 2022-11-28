@@ -1,4 +1,15 @@
 - commits:
+    - subject: Use flowzone master
+      hash: 6272c69dff4f95a218d47ad37821d70b458e7fe4
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anuj Deshpande
+  version: 0.0.4
+  title: ""
+  date: 2022-11-28T21:58:46.328Z
+- commits:
     - subject: Latest iteration of revisions
       hash: d602de2e4e356c79b56db59b3dbd33514bc67f51
       body: ""
