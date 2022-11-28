@@ -9,7 +9,7 @@ on:
 jobs:
   flowzone:
     name: Flowzone
-    uses: product-os/flowzone/.github/workflows/flowzone.yml@master
+    uses: product-os/flowzone/.github/workflows/flowzone.yml@fix-cloudflare-deploy
     secrets: inherit
     with:
       cloudflare_website: "custom-device-support"
