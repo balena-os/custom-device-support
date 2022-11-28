@@ -1,0 +1,11 @@
+- commits:
+    - subject: Add input for cloudflare config
+      hash: a0f4a4c01ac25ea6f80ad8a211906d33ebbe3e45
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anuj Deshpande
+  version: 0.0.2
+  title: ""
+  date: 2022-11-28T11:36:52.347Z
