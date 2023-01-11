@@ -124,7 +124,10 @@ Can I request custom changes at the hostOS level using this service?
 
 ## Sending Equipment and Devices to Balena
 
-- Three boards sent to our team in Galati for development and testing, to be replaced with new hardware revisions as needed. In addition to the boards, you should also send power supplies and any serial console cables. Balena has the cables necessary to connect a serial debug console for your board as long as it is accessible through USB, TTL pins, or RS232.
+- Please make sure to send us the following
+  - Three boards for development and testing, to be replaced with new hardware revisions as needed. 
+  - Power supplies and necessary connectors.
+  - Serial console cables.
 - Please complete [this form](https://forms.gle/xzGfC9SksrYcmGja6) to schedule a DHL pickup for the required equipment.
 - Alternatively, you can ship the equipment over to our team in Athens, and they will forward it to our Galati, Romania office. Please make sure to mark the package and add a shipping note with **"Route to Galati (YOUR COMPANY NAME)"** so the team will know to schedule a DHL pickup as soon as they receive it. Here is the address to ship the equipment:
 
