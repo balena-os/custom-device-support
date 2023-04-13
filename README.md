@@ -22,7 +22,7 @@ Our device support team will build a custom version of balenaOS specifically for
 
 ### Step 1: Evaluation
 
-Evaluation of your custom hardware is the first step in balena’s Custom Device Support process. It allows balena engineers to scope the work required to develop a balenaOS image on your behalf. After scoping is complete, balena will provide an official quote which includes the price tier for initial development and ongoing maintenance (if desired) of that hardware onto balenaCloud, as described here: <https://www.balena.io/pricing/#custom-device-support>
+Evaluation of your custom hardware is the first step in balena’s Custom Device Support process. It allows balena engineers to estimate the scope of the work required to develop the balenaOS image. After scoping is complete, balena will provide a quote covering the initial development (one time) and ongoing maintenance fees to get your hardware onto balenaCloud. Assuming the device bring up requires a custom host OS and base images, our standard pricing will apply: <https://www.balena.io/pricing/#custom-device-support>
 
 In order to complete this work, balena will require submission of the following form to ensure all relevant documentation and software components are shared with our engineers to prevent delays in starting the evaluation process. <https://balena.typeform.com/to/OXJXXb>
 
@@ -30,31 +30,23 @@ Additionally, please review the information below and, if you are not already in
 
 ### Step 2: Development
 
-Upon acceptance of the quote produced in the evaluation, balena will develop a production-grade, custom version of balenaOS, built specifically for your chosen hardware. Our devices team will use the information gathered in the CDS questionnaire and from liaising with your technical point of contact. More information on the technical process can be viewed here: <https://github.com/balena-os/meta-balena/blob/master/contributing-device-support.md>
+Upon acceptance of the quote produced in the evaluation, balena will develop a production-grade, custom version of balenaOS, built specifically for your chosen hardware. Our devices team will use the information gathered in the CDS questionnaire and from liaising with your technical point of contact. We will need you to send our team a board (and any peripherals) for the evaluation. More information on the technical process can be viewed here: <https://github.com/balena-os/meta-balena/blob/master/contributing-device-support.md>
 
 ### Step 3: Ongoing Maintenance
 
-Once an OS for a custom device type is available in the production dashboard, balena will be providing ongoing support as part of the maintenance phase. This includes updates to the custom device type in the case of hardware changes, support for device type specific questions in our Support queue, as well as test-and-release of upgraded balenaOS versions.
+Once an OS for a custom device type is available in the production dashboard, balena will be providing ongoing support as part of the maintenance phase. This includes updates to the custom device type in the case of hardware changes, support for device type specific questions in our support queue, as well as test-and-release of upgraded balenaOS versions.
 
 ## Pricing
 
-We will evaluate and provide a quote for your specific board, depending on the effort and complexity required to support it. We will need you to send our team a board (and any peripherals) for the evaluation.
-
-The cost for this evaluation process is $1,000 USD, which will be credited towards the initial development cost, should you decide to enter into a custom device support contract.
-
-Note that after we evaluate your board, we will still need two more boards for our device support team, which we will keep for the development phase and ongoing support.
+Based on the information gathered in the Evaluation (Step 1), we will evaluate and provide a quote for your specific board. Upon receiving the devices, balena reserves the right to reissue the quote in the event that the information previously gathered isn't accurate or there is more complexity involved in the bring-up (EX: it requires Yocto BSP support).
 
 To learn more about pricing and ongoing costs, see the [CDS section on balena's pricing page](https://www.balena.io/pricing/#custom-device-support).
 
 ## FAQ
 
-Q: How do I know what pricing tier my board will be in?
+How long does the development process take?
 
-- The correct Tier pricing can only be confirmed once your device has gone through initial evaluation.
-
-How long does the evaluation process take?
-
-- It depends on the workload of the balena Devices team, but a general guide is 2-4 weeks from the date the hardware is received.
+- It depends on the workload of the balena Devices team, but a general guide is 4-6 weeks from the date the hardware is received.
 
 I don’t want my device type to be visible to the balena community, can it be private to my org?
 
@@ -68,9 +60,9 @@ I have a custom LTE modem I want to use with my board, is that covered?
 
 - Peripherals (e.g. modems) may require additional custom support and testing from the balena team, and may increase the cost of providing custom device support.
 
-My hardware does not currently have Yocto support, can I still send it for evaluation?
+My hardware does not currently have Yocto support, can I still use Custom Device Support to onboard it to balena?
 
-- If a board does not have Yocto support, balena will have to complete the necessary engineering work which is not covered under the evaluation phase. Any hardware that does not have Yocto support will sit in tier 3 as standard.
+- Any hardware that does not have Yocto support will have a different cost structure than the listed standard pricing.
 
 Will my custom device type be able to get balena ESR releases?
 
@@ -124,7 +116,7 @@ Can I request custom changes at the hostOS level using this service?
 
 ## Sending Equipment and Devices to Balena
 
-- Three boards sent to our team in Galati for development and testing, to be replaced with new hardware revisions as needed. In addition to the boards, you should also send power supplies and any serial console cables. Balena has the cables necessary to connect a serial debug console for your board as long as it is accessible through USB, TTL pins, or RS232.
+- Two boards sent to our team in Galati for development and testing, to be replaced with new hardware revisions as needed. In addition to the boards, you should also send power supplies and any serial console cables. Balena has the cables necessary to connect a serial debug console for your board as long as it is accessible through USB, TTL pins, or RS232.
 - Please complete [this form](https://forms.gle/xzGfC9SksrYcmGja6) to schedule a DHL pickup for the required equipment.
 - Alternatively, you can ship the equipment over to our team in Athens, and they will forward it to our Galati, Romania office. Please make sure to mark the package and add a shipping note with **"Route to Galati (YOUR COMPANY NAME)"** so the team will know to schedule a DHL pickup as soon as they receive it. Here is the address to ship the equipment:
 
