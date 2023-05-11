@@ -144,3 +144,4 @@ Future contact with balena can be made in the following ways:
 If balena reaches out to the customer for questions about upcoming OS releases which require the customer's input, and balena does not receive response from the customer within 6 months, balena reserves the right to remove this device type from our dashboard and halt all actions related to its maintenance, or to make it a publicly available device type.
 
 After discontinuance of support for this hardware by the manufacturer, or end of support for the Yocto version required by this hardware, balena commits to keeping the device type on the platform for up to two years, but with no further updates outside of critical security fixes if possible.
+
