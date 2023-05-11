@@ -1,4 +1,26 @@
 - commits:
+    - subject: Trigger PR from update
+      hash: da14adde6318cf2cda571fd81847b5a88a57718c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Ryan Hampton (@rhampt) <rhampt@balena.io>
+        signed-off-by: Ryan Hampton (@rhampt) <rhampt@balena.io>
+      author: Ryan H
+    - subject: Trigger PR from last commit
+      hash: 16c8d10d000eee5f72799d635ed2e73f84de904b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Ryan Hampton (@rhampt) <rhampt@balena.io>
+        signed-off-by: Ryan Hampton (@rhampt) <rhampt@balena.io>
+      author: Ryan H
+  version: 0.0.7
+  title: ""
+  date: 2023-05-11T11:28:45.748Z
+- commits:
     - subject: Use master branch of flowzone
       hash: 2b7b3b73a62e7a2b524ecccbb9adfcd369247f70
       body: ""
