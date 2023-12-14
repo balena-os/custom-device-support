@@ -1,4 +1,15 @@
+---
+title: Balena Custom Device Support (CDS)
+description: Balena's CDS ensures seamless integration of your preferred hardware with balenaCloud. From evaluation to ongoing maintenance, get custom balenaOS versions, automated testing, upgrades, and dedicated support when you work with us. Explore the CDS process, pricing, and minimum specs needed for flexible hardware use.
+keywords: [CDS, balena, device, support, pricing, hardware]
+---
+
+
 # Balena Custom Device Support (CDS)
+
+<head>
+  <link rel="canonical" href="https://cds.balena.io/" />
+</head>
 
 ## Overview
 
