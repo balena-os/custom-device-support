@@ -1,4 +1,15 @@
 - commits:
+    - subject: "patch: Update README with Canonical tags"
+      hash: 032235c9a0b6e1221fc97d8a94ea2b7484adf7f2
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+  version: 0.0.8
+  title: ""
+  date: 2023-12-14T19:22:17.880Z
+- commits:
     - subject: Trigger PR from update
       hash: da14adde6318cf2cda571fd81847b5a88a57718c
       body: ""
