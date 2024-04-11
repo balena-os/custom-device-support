@@ -27,21 +27,21 @@ Our device support team will build a custom version of balenaOS specifically for
 - **Ongoing releases:** We will release every new version of the host OS so that it’s available for download via the balenaCloud dashboard.
 - **Troubleshooting:** Our device support team will assist you with questions, issues, or feature requests you have for your device’s OS.
 
-**Note on testing:** Once we have the patches for the board we will add your hardware to the testing rig in order to have the automated tests run with each PR. In the future, we intend to ship testing rigs to CDS customers for faster turnaround time on new release testing. The tests balena runs are documented here: <https://github.com/balena-os/meta-balena/tree/master/tests>. There are three categories of tests: cloud tests, OS tests, and host OS updates tests. However, not *all* the boards can be tested on the test rig and might require a different process.
+**Note on testing:** Once we have the patches for the board we will add your hardware to the testing rig in order to have the automated tests run with each PR. In the future, we intend to ship testing rigs to CDS customers for faster turnaround time on new release testing. The tests balena runs are documented here: [https://github.com/balena-os/meta-balena/tree/master/tests](https://github.com/balena-os/meta-balena/tree/master/tests). There are three categories of tests: cloud tests, OS tests, and host OS updates tests. However, not *all* the boards can be tested on the test rig and might require a different process.
 
 ## Description of Work
 
 ### Step 1: Evaluation
 
-Evaluation of your custom hardware is the first step in balena’s Custom Device Support process. It allows balena engineers to estimate the scope of the work required to develop the balenaOS image. After scoping is complete, balena will provide a quote covering the initial development (one time) and ongoing maintenance fees to get your hardware onto balenaCloud. Assuming the device bring up requires a custom host OS and base images, our standard pricing will apply: <https://www.balena.io/pricing/#custom-device-support>
+Evaluation of your custom hardware is the first step in balena’s Custom Device Support process. It allows balena engineers to estimate the scope of the work required to develop the balenaOS image. After scoping is complete, balena will provide a quote covering the initial development (one time) and ongoing maintenance fees to get your hardware onto balenaCloud. Assuming the device bring up requires a custom host OS and base images, our standard pricing will apply: [https://www.balena.io/pricing/#custom-device-support](https://www.balena.io/pricing/#custom-device-support)
 
-In order to complete this work, balena will require submission of the following form to ensure all relevant documentation and software components are shared with our engineers to prevent delays in starting the evaluation process. <https://balena.typeform.com/to/OXJXXb>
+In order to complete this work, balena will require submission of the following form to ensure all relevant documentation and software components are shared with our engineers to prevent delays in starting the evaluation process. [https://balena.typeform.com/to/OXJXXb](https://balena.typeform.com/to/OXJXXb)
 
 Additionally, please review the information below and, if you are not already including these details in the documentation you share with us via the above link, please share it with your Customer Success representative via email.
 
 ### Step 2: Development
 
-Upon acceptance of the quote produced in the evaluation, balena will develop a production-grade, custom version of balenaOS, built specifically for your chosen hardware. Our devices team will use the information gathered in the CDS questionnaire and from liaising with your technical point of contact. We will need you to send our team a board (and any peripherals) for the evaluation. More information on the technical process can be viewed here: <https://github.com/balena-os/meta-balena/blob/master/contributing-device-support.md>
+Upon acceptance of the quote produced in the evaluation, balena will develop a production-grade, custom version of balenaOS, built specifically for your chosen hardware. Our devices team will use the information gathered in the CDS questionnaire and from liaising with your technical point of contact. We will need you to send our team a board (and any peripherals) for the evaluation. More information on the technical process can be viewed here: [https://github.com/balena-os/meta-balena/blob/master/contributing-device-support.md](https://github.com/balena-os/meta-balena/blob/master/contributing-device-support.md)
 
 ### Step 3: Ongoing Maintenance
 
@@ -129,11 +129,12 @@ Can I request custom changes at the hostOS level using this service?
 
 - Two boards sent to our team in Galati for development and testing, to be replaced with new hardware revisions as needed. In addition to the boards, you should also send power supplies and any serial console cables. Balena has the cables necessary to connect a serial debug console for your board as long as it is accessible through USB, TTL pins, or RS232.
 - Please complete [this form](https://forms.gle/xzGfC9SksrYcmGja6) to schedule a DHL pickup for the required equipment.
-- Alternatively, you can ship the equipment over to our team in Athens, and they will forward it to our Galati, Romania office. Please make sure to mark the package and add a shipping note with **"Route to Galati (YOUR COMPANY NAME)"** so the team will know to schedule a DHL pickup as soon as they receive it. Here is the address to ship the equipment:
+- Alternatively, you can ship the equipment over to our team in Athens, and they will forward it to our Galati, Romania office. Please make sure to mark the package and add a shipping note with **"Route to Galati (YOUR COMPANY NAME)"** so the team will know to schedule a DHL/Fedex pickup as soon as they receive it. Here is the address to ship the equipment:
 
       Attn: Stefanos Sakellariou
-      Balenaio Ltd
-      Evrimedontos 4, 2nd Floor, 10435, Athens Greece
+      Company Name: Balenaio Ltd
+      Address: Epaminonda 4, 1st Floor, 121 34, Peristeri Greece
+      Email: distribution@balena.io
 
 **Note 1:** These devices must be the same hardware version you are taking into production.
 
