@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Fix address formatting"
+      hash: fc0f6034c9514fe36e7e6c028e3f70f4a390302d
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 0.0.10
+  title: ""
+  date: 2024-04-12T14:48:13.369Z
+- commits:
     - subject: "patch: Update shipping address"
       hash: b5dfeb687dc2491124b1fb6a13877245a040a64c
       body: ""
