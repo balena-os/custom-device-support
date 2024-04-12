@@ -131,10 +131,12 @@ Can I request custom changes at the hostOS level using this service?
 - Please complete [this form](https://forms.gle/xzGfC9SksrYcmGja6) to schedule a DHL pickup for the required equipment.
 - Alternatively, you can ship the equipment over to our team in Athens, and they will forward it to our Galati, Romania office. Please make sure to mark the package and add a shipping note with **"Route to Galati (YOUR COMPANY NAME)"** so the team will know to schedule a DHL/Fedex pickup as soon as they receive it. Here is the address to ship the equipment:
 
-      Attn: Stefanos Sakellariou
-      Company Name: Balenaio Ltd
-      Address: Epaminonda 4, 1st Floor, 121 34, Peristeri Greece
-      Email: distribution@balena.io
+``` 
+Attn: Stefanos Sakellariou
+Company Name: Balenaio Ltd
+Address: Epaminonda 4, 1st Floor, 121 34, Peristeri Greece
+Email: distribution@balena.io
+```
 
 **Note 1:** These devices must be the same hardware version you are taking into production.
 
