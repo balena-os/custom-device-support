@@ -1,4 +1,14 @@
 - commits:
+    - subject: "patch: Update self-shipping CDS instructions"
+      hash: db794f100062c5be368f9a2188ccf421b3ae838f
+      body: ""
+      footer: {}
+      author: Vipul Gupta
+      nested: []
+  version: 0.0.11
+  title: ""
+  date: 2024-09-19T11:52:57.747Z
+- commits:
     - subject: "patch: Fix address formatting"
       hash: fc0f6034c9514fe36e7e6c028e3f70f4a390302d
       body: ""
