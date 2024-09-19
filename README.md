@@ -129,7 +129,10 @@ Can I request custom changes at the hostOS level using this service?
 
 - Two boards sent to our team in Galati for development and testing, to be replaced with new hardware revisions as needed. In addition to the boards, you should also send power supplies and any serial console cables. Balena has the cables necessary to connect a serial debug console for your board as long as it is accessible through USB, TTL pins, or RS232.
 - Please complete [this form](https://forms.gle/xzGfC9SksrYcmGja6) to schedule a DHL pickup for the required equipment.
-- Alternatively, you can ship the equipment over to our team in Athens, and they will forward it to our Galati, Romania office. Please make sure to mark the package and add a shipping note with **"Route to Galati (YOUR COMPANY NAME)"** so the team will know to schedule a DHL/Fedex pickup as soon as they receive it. Here is the address to ship the equipment:
+
+- Alternatively, you can ship the equipment to our team in Athens, and they will forward it to our Galati, Romania office. To ship the equipment follow the steps below:
+
+1. You can ship the equipment to the following address:
 
 ``` 
 Attn: Stefanos Sakellariou
@@ -137,6 +140,22 @@ Company Name: Balenaio Ltd
 Address: Epaminonda 4, 1st Floor, 121 34, Peristeri Greece
 Email: distribution@balena.io
 ```
+
+2. After sending the shipment, please follow the following steps:
+   
+  - Please send the tracking details and a description of the package to `distribution@balena.io` with the subject line: `Tracking Details from (YOUR COMPANY NAME)`.
+
+  - If you are sending the device from a non-EU country, please attach the invoice to `distribution@balena.io` with the following note:
+
+```
+For customs use only. 
+This device is not for sale - No payment is needed for this invoice.
+The device is intended for software support to BalenaCloud only.
+```
+
+  - In order to get devices past customs, please send a CE (“Conformite Europeenne”) if any.
+
+Let us know on `distribution@balena.io` if you have any questions on the shipping process.
 
 **Note 1:** These devices must be the same hardware version you are taking into production.
 
